@@ -1,0 +1,18 @@
+<p>carrito works!</p>
+
+<div>
+    <p>Productos en el carrito: {{cantidadProductos}}</p>
+    <p>Total del carrito: ${{totalCarrito}}</p>
+
+    <button (click)="addProducto()">Añadir producto</button>
+    <button (click)="add5Productos()">Añadir 5 productos</button>
+    <button (click)="cupon()">Aplicar cupon 20%</button>
+    <button (click)="removeProducto()">Eliminar 1 producto</button>
+    <button (click)="emptyCart()">Vaciar Carrito</button>
+</div>
+
+@if(notificacion){
+    <div class="notificacion">
+        <strong>{{notificacion}}</strong>
+    </div>
+}

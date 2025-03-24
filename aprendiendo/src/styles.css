@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+.notificacion {
+    background-color: rgb(98, 185, 98);
+    border: 1px solid green;
+    color: white;
+    margin: 10px 0;
+    padding: 4px;
+    font-weight: bold;
+    border-radius: 20px;
+    width: 40%;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

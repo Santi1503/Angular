@@ -1,10 +1,9 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
-import { ProductoComponent } from './producto/producto.component';
+import { CarritoComponent } from './componentes/carrito/carrito.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, ProductoComponent],
+  imports: [CarritoComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
