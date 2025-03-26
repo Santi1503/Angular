@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 //import { CarritoComponent } from './componentes/carrito/carrito.component';
-import { CarritoSignalsComponent } from './components/carrito-signals/carrito-signals.component';
+import { PadreComponent } from './components/padre/padre.component';
 
 @Component({
   selector: 'app-root',
-  imports: [CarritoSignalsComponent],
+  imports: [PadreComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
